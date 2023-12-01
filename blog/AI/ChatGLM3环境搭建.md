@@ -497,6 +497,7 @@ python cli_demo.py
 * 模型：ChatGLM-6B，ChatGLM2-6B，ChatGLM3-6B，CodeGeeX2，Baichuan-13B，Baichuan-7B，Baichuan-13B，Baichuan2，InternLM
 
 ### 官方项目地址
+
 >官方项目地址
 ```
 https://github.com/THUDM/ChatGLM3
@@ -651,6 +652,8 @@ cmake --build build -j --config Release
 >运行测试
 ```
 .\build\bin\Release\main.exe -m D:\ChatGLM3_6B\models\chatglm-ggml\chatglm3-6b-32k-ggml_f16.bin -i
+.\build\bin\Release\main.exe -m D:\ChatGLM3_6B\models\chatglm-ggml\chatglm3-6b-32k-ggml_q8_0.bin -i
+.\build\bin\Release\main.exe -m D:\ChatGLM3_6B\models\chatglm-ggml\chatglm3-6b-32k-ggml_q4_0.bin -i
 ```
 
 #### 编译在CPU上跑的bin文件
